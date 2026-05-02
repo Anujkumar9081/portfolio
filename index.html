@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Anuj Kumar | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,6 +17,7 @@
         <div class="pointmain">
             <a href="#home" class="point">Home</a>
             <a href="#about" class="point">About</a>
+            <a href="#opensource" class="point">Open Source</a>
             <a href="#skills" class="point">Skills</a>
             <a href="#education" class="point">Education</a>
             <a href="#work" class="point">Work</a>
@@ -101,13 +102,161 @@
                     </p>
                     <p><strong>Email :</strong> anujyadav9081anu@gmail.com</p>
                     <p><strong>Location :</strong> Uttar Pradesh, India</p>
-                    <a href="https://anujkumar9081.github.io/resume/resume.pdf" target="_blank"
+                    <a href="./Anuj_kumar_FlowCV_Resume_2026-05-03.pdf" target="_blank"
                         class="resume-btn">Resume ></a>
                 </div>
             </div>
         </div>
     </section>
 
+
+    <!-- OPEN SOURCE CONTRIBUTIONS SECTION -->
+    <section class="opensource-section" id="opensource">
+        <div class="opensource-header reveal">
+            <div class="os-badge">🌐 Community</div>
+            <h1>Open Source <span>Contributions</span></h1>
+            <p>7 Pull Requests Merged across Enterprise-level open source projects</p>
+        </div>
+
+        <div class="os-stats reveal-zoom">
+            <div class="os-stat-item">
+                <span class="os-stat-num" data-count="7">0</span>
+                <span class="os-stat-label">Merged PRs</span>
+            </div>
+            <div class="os-stat-item">
+                <span class="os-stat-num" data-count="3">0</span>
+                <span class="os-stat-label">Projects</span>
+            </div>
+            <div class="os-stat-item">
+                <span class="os-stat-num" data-count="2">0</span>
+                <span class="os-stat-label">Orgs (CNCF &amp; Red Hat)</span>
+            </div>
+        </div>
+
+        <div class="os-cards-container">
+
+            <!-- Red Hat Hermeto -->
+            <div class="os-card reveal-left">
+                <div class="os-card-header">
+                    <div class="os-org-logo">
+                        <img src="https://avatars.githubusercontent.com/u/1137389?s=200&v=4" alt="Red Hat" onerror="this.style.display='none'">
+                    </div>
+                    <div class="os-card-meta">
+                        <span class="os-org-tag redhat-tag">Red Hat</span>
+                        <h3>Hermeto Project</h3>
+                        <p class="os-date">📅 Feb 2026 – Present</p>
+                    </div>
+                    <div class="os-pr-count">2 PRs</div>
+                </div>
+                <div class="os-card-body">
+                    <div class="os-contribution">
+                        <span class="os-merge-badge">✓ Merged</span>
+                        <p>Engineered parsing logic for <strong>multi-version compressed Python wheel tags</strong> within the core pip backend.</p>
+                        <a href="https://github.com/hermetoproject/hermeto" target="_blank" class="os-pr-link">View on GitHub →</a>
+                    </div>
+                    <div class="os-contribution">
+                        <span class="os-merge-badge">✓ Merged</span>
+                        <p>Discovered and patched a <strong>critical logic flaw in checksum validation</strong> for sdist packages, preventing FileNotFoundError crashes during SBOM generation.</p>
+                        <a href="https://github.com/hermetoproject/hermeto" target="_blank" class="os-pr-link">View on GitHub →</a>
+                    </div>
+                </div>
+                <div class="os-tech-tags">
+                    <span>Python</span><span>pip</span><span>SBOM</span>
+                </div>
+            </div>
+
+            <!-- CNCF Antrea -->
+            <div class="os-card reveal">
+                <div class="os-card-header">
+                    <div class="os-org-logo">
+                        <img src="https://avatars.githubusercontent.com/u/24722093?s=200&v=4" alt="CNCF" onerror="this.style.display='none'">
+                    </div>
+                    <div class="os-card-meta">
+                        <span class="os-org-tag cncf-tag">CNCF</span>
+                        <h3>Antrea</h3>
+                        <p class="os-date">📅 Mar 2026 – Present</p>
+                    </div>
+                    <div class="os-pr-count">2 PRs</div>
+                </div>
+                <div class="os-card-body">
+                    <div class="os-contribution">
+                        <span class="os-merge-badge">✓ Merged</span>
+                        <p>Patched a <strong>command injection vulnerability</strong> in GitHub Actions CI/CD workflows.</p>
+                        <a href="https://github.com/antrea-io/antrea" target="_blank" class="os-pr-link">View on GitHub →</a>
+                    </div>
+                    <div class="os-contribution">
+                        <span class="os-merge-badge">✓ Merged</span>
+                        <p>Resolved a <strong>Golang error-wrapping bug</strong> in the SupportBundleCollection controller.</p>
+                        <a href="https://github.com/antrea-io/antrea" target="_blank" class="os-pr-link">View on GitHub →</a>
+                    </div>
+                </div>
+                <div class="os-tech-tags">
+                    <span>Golang</span><span>CI/CD</span><span>Kubernetes</span>
+                </div>
+            </div>
+
+            <!-- CNCF Jaeger -->
+            <div class="os-card reveal-right">
+                <div class="os-card-header">
+                    <div class="os-org-logo">
+                        <img src="https://avatars.githubusercontent.com/u/28545596?s=200&v=4" alt="Jaeger" onerror="this.style.display='none'">
+                    </div>
+                    <div class="os-card-meta">
+                        <span class="os-org-tag cncf-tag">CNCF</span>
+                        <h3>Jaeger Tracing</h3>
+                        <p class="os-date">📅 Mar 2026 – Present</p>
+                    </div>
+                    <div class="os-pr-count">2 PRs</div>
+                </div>
+                <div class="os-card-body">
+                    <div class="os-contribution">
+                        <span class="os-merge-badge">✓ Merged</span>
+                        <p>Fixed a <strong>byte alignment corruption bug</strong> in the Elasticsearch storage backend for 64-bit trace IDs.</p>
+                        <a href="https://github.com/jaegertracing/jaeger" target="_blank" class="os-pr-link">View on GitHub →</a>
+                    </div>
+                    <div class="os-contribution">
+                        <span class="os-merge-badge">✓ Merged</span>
+                        <p>Improved <strong>trace sampling configuration</strong> for distributed tracing backends.</p>
+                        <a href="https://github.com/jaegertracing/jaeger" target="_blank" class="os-pr-link">View on GitHub →</a>
+                    </div>
+                </div>
+                <div class="os-tech-tags">
+                    <span>Golang</span><span>Elasticsearch</span><span>Tracing</span>
+                </div>
+            </div>
+
+            <!-- Learning Unlimited -->
+            <div class="os-card reveal">
+                <div class="os-card-header">
+                    <div class="os-org-logo os-org-logo-text">LU</div>
+                    <div class="os-card-meta">
+                        <span class="os-org-tag lu-tag">Open Source</span>
+                        <h3>Learning Unlimited (ESP)</h3>
+                        <p class="os-date">📅 Mar 2026</p>
+                    </div>
+                    <div class="os-pr-count">1 PR</div>
+                </div>
+                <div class="os-card-body">
+                    <div class="os-contribution">
+                        <span class="os-merge-badge">✓ Merged</span>
+                        <p>Fixed a <strong>silent string manipulation bug</strong> in Python statistics processing to prevent duplicate data rows.</p>
+                        <a href="https://github.com/learning-unlimited/ESP-Website" target="_blank" class="os-pr-link">View on GitHub →</a>
+                    </div>
+                </div>
+                <div class="os-tech-tags">
+                    <span>Python</span><span>Django</span><span>Bug Fix</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="os-github-cta reveal">
+            <a href="https://github.com/Anujkumar9081" target="_blank" class="os-github-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                View All on GitHub
+            </a>
+        </div>
+    </section>
 
     <!-- SKILLS SECTION -->
     <section class="skills-section" id="skills">
@@ -449,7 +598,7 @@
         window.addEventListener("scroll", reveal);
 
         // Scrollspy for navbar links
-        const sections = document.querySelectorAll("div#home, section#about, section#skills, div#education, section#work, footer#contact");
+        const sections = document.querySelectorAll("div#home, section#about, section#opensource, section#skills, div#education, section#work, footer#contact");
         const navLinks = document.querySelectorAll(".pointmain a.point");
 
         function scrollActive() {
@@ -484,6 +633,37 @@
         });
 
         reveal();
+
+        // Counter animation for Open Source stats
+        const statNums = document.querySelectorAll('.os-stat-num');
+        let statsCounted = false;
+
+        function animateCounters() {
+            if (statsCounted) return;
+            const osSection = document.getElementById('opensource');
+            if (!osSection) return;
+            const rect = osSection.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 100 && rect.bottom > 0) {
+                statsCounted = true;
+                statNums.forEach(num => {
+                    const target = parseInt(num.getAttribute('data-count') || num.textContent);
+                    if (isNaN(target)) return;
+                    let current = 0;
+                    const step = Math.ceil(target / 30);
+                    const timer = setInterval(() => {
+                        current += step;
+                        if (current >= target) {
+                            current = target;
+                            clearInterval(timer);
+                        }
+                        num.textContent = current;
+                    }, 50);
+                });
+            }
+        }
+
+        window.addEventListener('scroll', animateCounters);
+        animateCounters();
     </script>
 </body>
 
